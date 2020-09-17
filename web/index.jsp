@@ -8,36 +8,45 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+<head>
     <title>Насибуллин Руслан M33021</title>
     <link rel="stylesheet" href="outline.css">
-  </head>
-  <body>
-    <header>
-      <h1>Насибуллин Руслан Радикович</h1>
-        <cite><sub> Work is not a wolf...AUF</sub></cite>
-    </header>
-    <main>
-      <section class = "about">
+</head>
+<body>
+<header>
+    <meta name="description" content="Мое портфолио разработчика">
+    <meta name="keywords" content="Портфолио,программирование,разработка,фронтенд">
+    <h1>Насибуллин Руслан Радикович</h1>
+    <cite><sub> Work is not a wolf...AUF</sub></cite>
+</header>
+<main>
+    <section class="about">
         <h2>Обо мне</h2>
-          <p>Студент 3 курса в ИТМО на направление 09.03.02 Информационные системы. Занимаюсь программированием с 10 класса, участвовал в школьных олимпиадах, гитарист в rock(рок)-band'e</p>
-      </section>
-      <section class = "projects">
+        <p>Студент 3 курса в ИТМО на направление 09.03.02 Информационные системы. Занимаюсь программированием с 10
+            класса, участвовал в школьных олимпиадах, гитарист в rock(рок)-band'e</p>
+    </section>
+    <section class="projects">
         <h2>Мои проекты</h2>
-          <a href="https://github.com/IamKOALA">GitHub</a>
-          <p>
-          <ul><li>Key-Value хранилище на языке Java, реализованное как Append-only журнал, состоящего из нескольких бд, таблиц и сегментов</li>
-          <li>Telegram-бот, уведомляющий о событиях с платформы Jira на Python</li>
-          <li>консольная игра в стиле HoMM на языке C#</li>
-          <li>плагин для Intellij Idea для форматирования кода в файле или выделенном куске кода.</li>
-          <li>различные алгоритмы (дейкстра, двух китайцев, LCA, КМП, etc.) и структуры данных (stack, multimap, AVL tree, Segment tree, etc.)</li></ul>
-          </p>
+        <a href="https://github.com/IamKOALA">GitHub</a>
+        <p>
+        <ul>
+            <li>Key-Value хранилище на языке Java, реализованное как Append-only журнал, состоящего из нескольких бд,
+                таблиц и сегментов
+            </li>
+            <li>Telegram-бот, уведомляющий о событиях с платформы Jira на Python</li>
+            <li>консольная игра в стиле HoMM на языке C#</li>
+            <li>плагин для Intellij Idea для форматирования кода в файле или выделенном куске кода.</li>
+            <li>различные алгоритмы (дейкстра, двух китайцев, LCA, КМП, etc.) и структуры данных (stack, multimap, AVL
+                tree, Segment tree, etc.)
+            </li>
+        </ul>
+        </p>
 
-      </section>
-      <section class = "achievments">
+    </section>
+    <section class="achievments">
         <h2>Мои достижения!</h2>
-          ¯\_(ツ)_/¯
-          <pre>
+        ¯\_(ツ)_/¯
+        <pre>
               <code>
 public class FormatGitDiff {
     ProcessBuilder gitDiffBuilder;
@@ -55,16 +64,16 @@ public class FormatGitDiff {
 }
               </code>
           </pre>
-      </section>
-    </main>
-    <footer>
-        <h2>Contacts</h2>
-        <ol>
-            <li><a href="https://vk.com/iamkoala">VK</a></li>
-            <li><p>+7-960-987-27-07</p></li>
-        </ol>
-      Выполнено в качестве Лабараторной работы №1
-      <pre class = "image">
+    </section>
+</main>
+<footer>
+    <h2>Contacts</h2>
+    <ol>
+        <li><a href="https://vk.com/iamkoala">VK</a></li>
+        <li><p>+7-960-987-27-07</p></li>
+    </ol>
+    Выполнено в качестве Лабараторной работы №1
+    <pre class="image">
           ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...  ...
           ................................................................................................................
           ...  ... .... .... .... .... .... .... .... .... .... .... .... .... .... .... .... .... .... .... .... .... ...
@@ -134,6 +143,6 @@ public class FormatGitDiff {
           ................................................................................................................
           ...  ... .... .... .... .... .... .... .... .... .... .... .... .... .... .... .... .... .... .... .... .... ...
       </pre>
-    </footer>
-  </body>
+</footer>
+</body>
 </html>
